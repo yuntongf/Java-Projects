@@ -1,0 +1,16 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+    "Compile": "make compile",
+    "Run TwitterBot": "make run",
+    "Check Style": "make checkstyle",
+    "Test Project": "make test",
+    "Test with Stack Trace": "make test-stack-trace",
+    "Clean Project": "make clean",
+    "Format Project": "make format",
+    "Zip Project": "make zip"
+  }
+
+}

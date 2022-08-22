@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.cis120.ServerModelTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! - in org.cis120.ServerModelTest
+testInvalidNickname  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.ServerModelTest.testInvalidNickname(ServerModelTest.java:30)
+

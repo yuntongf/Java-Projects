@@ -1,0 +1,72 @@
+state: 
+mouseListening: mouse has not been clicked and not waiting for keyboard input
+keboardLiestening: waiting for keyboard input
+
+Class:
+
+# Game.java
+where the game happens
+parse in file
+setup
+boolean mouseClicked = False;
+boolean won = false;
+animation
+while !won
+    draw()
+  if !keyBoardListening
+    mouseclicked = PennDraw.mouseClicked()
+  if !mouseListening {
+    setup()
+    PennDraw.clear()
+    draw()
+    keyboardlistening = true
+    updateBox(mouseX, mouseY)
+    }
+
+    if keyboardListening
+        if there's an input
+            keyboardListening = false
+            if box is not empty 
+                mouseListening is flase 
+            else 
+            bolean correct = board.checkInput()
+            if correct 
+                won = checkWinningCondition()
+            //if !correct
+            //    correctionMode = true
+
+print(you win)
+
+
+# Board.java
+fields: int[][] board, int currRow, int CurrCol, int size
+
+methods:
+
+setup()
+
+draw()
+
+board setup(String filename): check values are valid and returns a board 
+with the parsed values
+
+void updateCurr(double mouseX, double mouseY)
+
+boolean checkInput(int row, int col): 
+    if input is invalid row, color that row
+    if input is invalid col, color that col
+    if input is invalid block, color that block
+
+void updateValueOfCurr(char input)
+
+boolean emptyCell()
+
+boolean checkWinningCodition()
+
+
+Some questions:
+
+Implement a 6x6 Sudoku board as a level (cannot be done in place of the 
+9x9 board, but instead includes a 6x6 board as a possible option) (1 pt)
+
+Coloring be done in the main function or passed down to lower class

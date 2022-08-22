@@ -1,0 +1,21 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+    "Compile": "make compile",
+    "Run Chat Server": "make run",
+    "Run Chat Client": "java -jar hw07-client.jar &",
+    "Check Style": "make checkstyle",
+    "Test Project": "make test",
+    "Test with Stack Trace": "make test-stack-trace",
+    "Clean Project": "make clean",
+    "Format Project": "make format",
+    "Zip Project": "make zip"
+  },
+
+// Preview button configuration
+  "preview": {
+        "PennPals": "https://{{domain3000}}/"
+  }
+}

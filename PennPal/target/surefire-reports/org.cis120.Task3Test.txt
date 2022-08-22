@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: org.cis120.Task3Test
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.cis120.Task3Test
+testNickCollision  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testNickCollision(Task3Test.java:111)
+
+testDeregisterSingleUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testDeregisterSingleUser(Task3Test.java:82)
+
+testRegisterMultipleUsers  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testRegisterMultipleUsers(Task3Test.java:67)
+
+testDeregisterOneOfManyUsers  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testDeregisterOneOfManyUsers(Task3Test.java:89)
+
+testNickNotInChannels  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testNickNotInChannels(Task3Test.java:99)
+
+testEmptyOnInit  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.isEmpty()" because the return value of "org.cis120.ServerModel.getRegisteredUsers()" is null
+	at org.cis120.Task3Test.testEmptyOnInit(Task3Test.java:36)
+
+testRegisterSingleUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testRegisterSingleUser(Task3Test.java:50)
+
+testEncapsulationGetRegisteredUsers  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testEncapsulationGetRegisteredUsers(Task3Test.java:138)
+
+testNickCollisionOnConnect  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Collection.contains(Object)" because "existingUsers" is null
+	at org.cis120.Task3Test.testNickCollisionOnConnect(Task3Test.java:123)
+
